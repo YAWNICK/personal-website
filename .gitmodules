@@ -1,0 +1,3 @@
+[submodule "themes/soho-yn"]
+	path = themes/soho-yn
+	url = https://github.com/YAWNICK/soho-yn.git
