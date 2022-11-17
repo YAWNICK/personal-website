@@ -13,7 +13,8 @@ enableEmoji = true
 author = 'Jannik'
 description = 'Welcome to my cache.'
 profilePicture = 'images/TheDiabolo.jpeg'
-themeColor = '#033855'
+#themeColor = '#033855'
+themeColor = '#49757a'
 copyright = 'Jannik'
 
 [menu]
@@ -31,7 +32,25 @@ copyright = 'Jannik'
  # url = "/projects/"
 
   [[menu.main]]
+  name = "Categories"
+  weight = 200
+  identifier = "categories"
+  url = "/categories/"
+
+  [[menu.main]]
   name = "About"
   identifier = "about"
-  weight = 10
+  weight = 1000
   url = "/about/"
+
+[taxonomies]
+category = "categories"
+
+defaultContentLanguage = 'en'
+[languages]
+  [languages.en]
+    weight = 1
+    languageName = "🇺🇸"
+  [languages.de]
+    weight = 2
+    languageName = "🇩🇪"
