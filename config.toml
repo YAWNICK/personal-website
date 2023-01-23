@@ -46,6 +46,19 @@ copyright = 'Jannik'
 [taxonomies]
 category = "categories"
 
+[markup]
+
+  [markup.highlight]
+  codeFences = true
+  guessSyntax = false
+  hl_Lines = ""
+  lineNoStart = 1
+  lineNos = false
+  lineNumbersInTable = true
+  noClasses = true # if false, you need to provide you own custom CSS
+  style = "friendly"
+  tabWidth = 4
+
 defaultContentLanguage = 'en'
 [languages]
   [languages.en]
