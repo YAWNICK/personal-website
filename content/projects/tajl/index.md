@@ -22,6 +22,12 @@ A simple webapp to split expenses with groups of people. No accounts, just invit
 
 You're on a trip with a group of people and you need to track and split expenses. But everyone uses a different app for that and nobody wants to download another app. Also, nobody wants to create an account just for some simple group expense tracking. You just want a simple solution. tajl is the answer. You just create a group, share the invite code with everyone, and now everyone can add people and expenses. Whenever you want, you'll get a list of suggested equalizing payments to settle up.
 
+## Interesting Challenges
+
+### Minimal number of equalizing payments
+
+Given every person's balance, what is the minimal number of equalizing payments and what are they? This is in NP. Maybe solving it is still feasable because the number of people realistically is never that big. I implemented a pretty straight forward approach, just sorting surplus and deficit people by amount and creating suggested payments greedily with one pass. This feels like a 2-approximation.
+
 ## Features
 
 - create groups
