@@ -25,11 +25,11 @@ copyright = 'Jannik'
   identifier = "posts"
   url = "/posts/"
 
- # [[menu.main]]
- # name = "Projects"
- # weight = 150
- # identifier = "projects"
- # url = "/projects/"
+  [[menu.main]]
+  name = "Projects"
+  weight = 150
+  identifier = "projects"
+  url = "/projects/"
 
   [[menu.main]]
   name = "Categories"
@@ -58,12 +58,16 @@ category = "categories"
   noClasses = true # if false, you need to provide you own custom CSS
   style = "friendly"
   tabWidth = 4
+  
+  [markup.goldmark.renderer]
+  unsafe = true
+
 
 defaultContentLanguage = 'en'
 [languages]
   [languages.en]
     weight = 1
     languageName = "🇺🇸"
-  [languages.de]
-    weight = 2
-    languageName = "🇩🇪"
+  #[languages.de]
+  #  weight = 2
+  #  languageName = "🇩🇪"
