@@ -16,6 +16,7 @@ profilePicture = 'images/TheDiabolo.jpeg'
 #themeColor = '#033855'
 themeColor = '#49757a'
 copyright = 'Jannik'
+mainSections = ["posts", "projects"]
 
 [menu]
 

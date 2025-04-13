@@ -16,8 +16,11 @@ A mobile-first web platform to create audio recordings of texts (e.g. ASR traini
 <img src="https://img.shields.io/badge/django-092E20?logo=Django&logoColor=white" height="30px" align="left" style="margin-right:10px;"/>
 <img src="https://img.shields.io/badge/angular-0F0F11?logo=Angular&logoColor=white" height="30px" align="left" style="margin-right:10px;"/>
 <img src="https://img.shields.io/badge/ionic-3880FF?logo=Ionic&logoColor=white" height="30px" align="left" style="margin-right:10px;"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=PostgreSQL&logoColor=white" height="30px"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=PostgreSQL&logoColor=white" height="30px" align="left" style="margin-right:10px;"/>
+<img src="https://img.shields.io/badge/nginx-009639?logo=NGINX&logoColor=white" height="30px"/>
 </p>
+
+<!--more-->
 
 <a href="https://github.com/TEQST/TEQST"><img src="https://img.shields.io/badge/GitHub-TEQST-000000?logo=GitHub" height="30px"/></a>
 
@@ -45,4 +48,4 @@ I needed a small ASR test dataset for a group project once, and with TEQST we we
 
 ## Dev story
 
-This was PSE (Practical Software Engineering) project in my 3rd Semester at Uni, developed in a team of 5. We built the initial version in one semester and continued to work on it for the following 2 years. I was mainly involved in the backend, later more in the frontend. We've used it with Postgres and SQLite databases.
+This was PSE (Practical Software Engineering) project in my 3rd Semester at Uni, developed in a team of 5. We built the initial version in one semester and continued to work on it for the following 2 years while maintaining a live production version for the university institute. I was mainly involved in the backend, later more in the frontend. We've used it with Postgres and SQLite databases.

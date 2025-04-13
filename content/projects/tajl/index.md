@@ -1,7 +1,7 @@
 ---
 title: "tajl: Split expenses without downloading an app"
-date: 2025-03-31T10:09:50+02:00
-draft: true
+date: 2025-04-12T10:09:50+02:00
+draft: false
 disable_share: true
 categories: ["Programming"]
 ---
@@ -15,6 +15,8 @@ A simple webapp to split expenses with groups of people. No accounts, just invit
 <img src="https://img.shields.io/badge/javascript-F7DF1E?logo=JavaScript&logoColor=white" height="30px" align="left" style="margin-right:10px;"/>
 <img src="https://img.shields.io/badge/django-092E20?logo=Django&logoColor=white" height="30px"/>
 </p>
+
+<!--more-->
 
 <a href="https://tajl.yawnick.de/"><img src="https://img.shields.io/badge/Demo-000000" height="30px"/></a>
 
