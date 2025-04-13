@@ -1,7 +1,7 @@
 ---
 title: "CatchCounter: Counting juggling catches with my Garmin watch"
 date: 2025-04-12T16:09:50+02:00
-draft: true
+draft: false
 disable_share: true
 categories: ["Programming"]
 ---

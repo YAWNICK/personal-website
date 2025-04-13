@@ -1,7 +1,7 @@
 ---
 title: "StabiShare: A platform for exercise sharing and smart workout generation"
 date: 2025-04-12T17:09:50+02:00
-draft: true
+draft: false
 disable_share: true
 categories: ["Programming"]
 ---
@@ -17,6 +17,8 @@ A platform and webapp for creating and sharing exercise repositories, and for ge
 </p>
 
 <!--more-->
+
+## Pitch
 
 You know you need to do your core exercises. But you don't want to think about which exercise to do next and you also don't want to do the same core workout every time. The solution? Dump all exercises you know into a StabiShare space or join you track club's space and let StabiShare generate a random workout for you. Just put in the length, and how much of each muscle group you want to focus on. StabiShare does the rest and you never get bored or have any excuses! The generated workout is even balanced, so that you don't have a bunch of exercises of the same focus in a row.
 
